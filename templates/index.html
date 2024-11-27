@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraping Form</title>
+</head>
+
+<body>
+    <form action="/scrape" method="post">
+        <label for="website">Website:</label><br>
+        <input type="text" id="website" name="website"><br><br>
+    
+        <label for="identifier1">Identifier 1:</label><br>
+        <select id="identifier1" name="identifier">
+            <option value="xpath">XPath</option>
+            <option value="id">ID</option>
+            <option value="class_name">Class Name</option>
+            <option value="name">Name</option>
+            <option value="tag_name">Tag Name</option>
+        </select><br><br>
+        <label for="identifier_id1">Identifier ID 1:</label><br>
+        <input type="text" id="identifier_id1" name="identifier_id"><br><br>
+    
+        <label for="identifier2">Identifier 2:</label><br>
+        <select id="identifier2" name="identifier">
+            <option value="xpath">XPath</option>
+            <option value="id">ID</option>
+            <option value="class_name">Class Name</option>
+            <option value="name">Name</option>
+            <option value="tag_name">Tag Name</option>
+        </select><br><br>
+        <label for="identifier_id2">Identifier ID 2:</label><br>
+        <input type="text" id="identifier_id2" name="identifier_id"><br><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
