@@ -54,7 +54,7 @@ The landing page allows the user to:
 
 ```
 .
-|-- app.py                 # Flask application
+|-- app.ipynb                 # Flask application
 |-- templates/
 |   |-- index.html         # HTML form for user input
 |   |-- result.html        # Displays results dynamically
