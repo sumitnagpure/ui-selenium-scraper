@@ -1,4 +1,4 @@
-# Web Scraping Application with Flask
+# Web Scraping Application with Selenium
 
 ## Description
 This application is a simple Flask-based web scraper that uses Selenium to extract data from websites based on user-specified identifiers. It provides two functionalities:
@@ -35,7 +35,7 @@ This application is a simple Flask-based web scraper that uses Selenium to extra
 2. Start the Flask application:
    ```bash
    python app.ipynb
-   ```
+   ```f
 3. Open a web browser and navigate to `http://127.0.0.1:5000/`.
 
 ### Application Pages
